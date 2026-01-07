@@ -17,7 +17,7 @@
 ## 功能特性
 
 * **一键安装**: 只需一条命令即可完成安装，自动将脚本部署为系统命令 `cfy`。
-* **智能模板源**: 自动从 `/etc/sing-box/url.txt` 读取节点作为模板。
+* **智能模板源**: 自动从 `/etc/s-box/vm_ws_argogd.txt` 读取节点作为模板。
 * **无模板启动**: 如果模板文件为空或无效，会提示用户手动粘贴一个链接作为模板。
 * **两种生成模式**:
     1.  **Cloudflare 官方 IP**: 从 Cloudflare 官方获取全量 IPv4 地址段，用户可指定生成数量，脚本会随机选择 IP 进行替换。
@@ -46,7 +46,7 @@ apt update && apt install -y jq curl coreutils grep sed sudo
 请复制并执行以下命令。它会自动下载脚本，并触发脚本的自我安装程序。首次运行即完成安装。
 
 ```bash
-bash <(curl -l -s https://raw.githubusercontent.com/byJoey/cfy/main/cfy.sh)
+bash <(curl -l -s https://raw.githubusercontent.com/helongjk/cfy/main/cfy.sh)
 ```
 安装成功后，您可以随时在终端的任何位置输入以下命令来启动脚本：
 ```bash
