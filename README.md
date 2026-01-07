@@ -57,7 +57,7 @@ cfy
 
 * **更新脚本**: 重新运行一次上面的“一键安装”命令即可覆盖更新。
     ```bash
-  bash <(curl -l -s https://raw.githubusercontent.com/byJoey/cfy/main/cfy.sh)
+  bash <(curl -l -s https://raw.githubusercontent.com/helongjk/cfy/main/cfy.sh)
     ```
 
 * **卸载脚本**: 只需删除安装好的文件即可。
