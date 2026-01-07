@@ -94,7 +94,7 @@ get_all_optimized_ips() {
 }
 
 main() {
-    local url_file="/etc/sing-box/url.txt"
+    local url_file="/etc/s-box/vm_ws_argogd.txt"
     declare -a valid_urls valid_ps_names
     
     echo -e "${GREEN}=================================================="
